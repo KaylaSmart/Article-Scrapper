@@ -1,0 +1,44 @@
+body {background-color: white}
+#container{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#articles{
+    display: inline-block;
+    overflow: auto;
+    width:80%;
+    height: 500px;
+}
+#comments{
+
+}
+#barbar{
+    background-color: black;
+    text-align: center;
+}
+
+.caption, h2{
+    color:white;
+    font-size: 40px;
+}
+
+.jumbotron{
+    background: url("https://images.unsplash.com/photo-1504465039710-0f49c0a47eb7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a9b2c6e54342b63487ce461a5ee9872&auto=format&fit=crop&w=1350&q=80")  no-repeat;
+    background-size: 100%;
+    font-display: center;
+}
+.jumbotron .overlay {
+    position: absolute;
+    top: 04;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: auto;
+    background: linear-gradient(#333, rgb(187, 72, 129));
+    opacity: 0.7;
+}
+
+
+
